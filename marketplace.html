@@ -1,0 +1,599 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    
+    <header>
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-3 d-flex">
+                    <div class="logo"><span><i class="fa fa-facebook" aria-hidden="true"></i></span></div>
+                    <div class="search"><span><i class="fa fa-search" aria-hidden="true"></i></span></div>
+                </div>
+                <div class="col-6">
+                    <span class="home"><i class="fa fa-home" aria-hidden="true"></i></span>
+                    <span class="home active"><i class="fa fa-shopping-bag" aria-hidden="true"></i></span>
+                    <span class="home"><i class="fa fa-home" aria-hidden="true"></i></span>
+                    <span class="home"><i class="fa fa-home" aria-hidden="true"></i></span>
+                </div>
+                <div class="col-3 d-flex justify-content-end">
+                    <span class="right-icon"><i class="fa fa-bars" aria-hidden="true"></i></span>
+                    <span class="right-icon"><i class="fa fa-commenting" aria-hidden="true"></i></span>
+                    <span class="right-icon"><i class="fa fa-bell-o" aria-hidden="true"></i></span>
+                    <span class="right-icon"><img src="https://i.ibb.co/W3ycSjT/20220828-210105-02.jpg" alt=""></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3 left p-2">
+                    <div class="top d-flex justify-content-between">
+                        <h3 class="text-white">Marketplace</h3>
+                        <span class="m-0"><i class="fa fa-cog" aria-hidden="true"></i></span>
+                    </div>
+                    <div class="product-search my-2">
+                        <input type="text" placeholder="Search Marketplace" class="form-control">
+                    </div>
+                    <div class="marketplace-option text-white">
+                        <ul class="list-unstyled">
+                            <li class="active"><span><i class="fa fa-shopping-bag" aria-hidden="true"></i></span> <h6>Browse all</h6></li>
+                            <li><span><i class="fa fa-shopping-bag" aria-hidden="true"></i></span> <h6>Browse all</h6></li>
+                            <li><span><i class="fa fa-shopping-bag" aria-hidden="true"></i></span> <h6>Notifications</h6></li>
+                            <li><span><i class="fa fa-shopping-bag" aria-hidden="true"></i></span> <h6>Inbox</h6></li>
+                            <li><span><i class="fa fa-shopping-bag" aria-hidden="true"></i></span> <h6>Buying </h6><span class="p-icon"><i class="fa fa-angle-right" aria-hidden="true"></i></span></li>
+                            <li><span><i class="fa fa-shopping-bag" aria-hidden="true"></i></span> <h6>Selling </h6><span class="p-icon"><i class="fa fa-angle-right" aria-hidden="true"></i></span></li>
+                        </ul>
+                        <div class="new-listing">
+                            <a href="#" class="w-100"><span><i class="fa fa-plus" aria-hidden="true"></i></span>Create new listing </a>
+                        </div>
+                    </div>
+
+                    <div class="filter my-2">
+                        <span class="text-white fs-5">Filters</span>
+                        <button>Faridpur, Dhaka, Bangladesh . Within 10 kilometers</button>
+                    </div>
+                    <div class="product-categories marketplace-option text-white">
+                        <span class="text-white fs-5">Categories</span>
+                        <ul class="list-unstyled mt-3">
+                            <li><span><i class="fa fa-shopping-bag" aria-hidden="true"></i></span><h6>Vehicles</h6></li>
+                            <li><span><i class="fa fa-shopping-bag" aria-hidden="true"></i></span><h6>Property Rentals</h6></li>
+                            <li><span><i class="fa fa-shopping-bag" aria-hidden="true"></i></span><h6>Apparel</h6></li>
+                            <li><span><i class="fa fa-shopping-bag" aria-hidden="true"></i></span><h6>Classifieds</h6></li>
+                            <li><span><i class="fa fa-shopping-bag" aria-hidden="true"></i></span><h6>Electronics</h6></li>
+                            <li><span><i class="fa fa-shopping-bag" aria-hidden="true"></i></span><h6>Entertainment</h6></li>
+                            <li><span><i class="fa fa-shopping-bag" aria-hidden="true"></i></span><h6>Family</h6></li>
+                            <li><span><i class="fa fa-shopping-bag" aria-hidden="true"></i></span><h6>Free Stuff</h6></li>
+                            <li><span><i class="fa fa-shopping-bag" aria-hidden="true"></i></span><h6>Garden & Outdoor</h6></li>
+                            <li><span><i class="fa fa-shopping-bag" aria-hidden="true"></i></span><h6>Hobbies</h6></li>
+                            <li><span><i class="fa fa-shopping-bag" aria-hidden="true"></i></span><h6>Home Goods</h6></li>
+                            <li><span><i class="fa fa-shopping-bag" aria-hidden="true"></i></span><h6>Home Improvement Supplies</h6></li>
+                            <li><span><i class="fa fa-shopping-bag" aria-hidden="true"></i></span><h6>Home Sales</h6></li>
+                            <li><span><i class="fa fa-shopping-bag" aria-hidden="true"></i></span><h6>Musical Instruments</h6></li>
+                            <li><span><i class="fa fa-shopping-bag" aria-hidden="true"></i></span><h6>Office Supplies</h6></li>
+                            <li><span><i class="fa fa-shopping-bag" aria-hidden="true"></i></span><h6>Pet Supplies</h6></li>
+                            <li><span><i class="fa fa-shopping-bag" aria-hidden="true"></i></span><h6>Sporting Goods</h6></li>
+                            <li><span><i class="fa fa-shopping-bag" aria-hidden="true"></i></span><h6>Toys & Games</h6></li>
+                            <li><span><i class="fa fa-shopping-bag" aria-hidden="true"></i></span><h6>Buy and sell groups</h6></li>
+                        </ul>
+                </div>
+                </div>
+
+                <div class="col-md-9 right">
+                    <div class="top-option d-flex justify-content-between">
+                        <span>Today's picks</span>
+                        <a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i>  ফরিদপুর · 10 km</a>
+                    </div>
+                    <div class="product mt-3">
+                        <div class="row">
+
+                            <div class="col-md-4">
+                                <div class="product-item text-white">
+                                    <img src="https://i.ibb.co/MNp4j6R/311013724-3228888973996913-5282888513203781346-n.jpg" alt="">
+                                    <span class="price mt-2"><span class="">৳</span>15,000</span>
+                                    <span class="product-titile">Hp Pro Core i7 2nd Generation Brand Pc</span>
+                                    <span class="product-location">Faridpur Buy & Sell Bazar</span>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="product-item text-white">
+                                    <img src="https://i.ibb.co/HrVSkSD/308870017-5663252740400370-8676653542940904628-n.jpg" alt="">
+                                    <span class="price mt-2"><span class="">৳</span>15,000</span>
+                                    <span class="product-titile">Hp Pro Core i7 2nd Generation Brand Pc</span>
+                                    <span class="product-location">Faridpur Buy & Sell Bazar</span>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="product-item text-white">
+                                    <img src="https://i.ibb.co/pnJwJry/309849050-5257345131041178-3425024262906613999-n.jpg" alt="">
+                                    <span class="price mt-2"><span class="">৳</span>15,000</span>
+                                    <span class="product-titile">Hp Pro Core i7 2nd Generation Brand Pc</span>
+                                    <span class="product-location">Faridpur Buy & Sell Bazar</span>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="product-item text-white">
+                                    <img src="https://i.ibb.co/0VPg8k9/295656942-4928515160596981-3890990437131700054-n.jpg" alt="">
+                                    <span class="price mt-2"><span class="">৳</span>15,000</span>
+                                    <span class="product-titile">Hp Pro Core i7 2nd Generation Brand Pc</span>
+                                    <span class="product-location">Faridpur Buy & Sell Bazar</span>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="product-item text-white">
+                                    <img src="https://i.ibb.co/ZWFPz3w/311129621-1278853876271624-7513348560603109209-n.jpg" alt="">
+                                    <span class="price mt-2"><span class="">৳</span>15,000</span>
+                                    <span class="product-titile">Hp Pro Core i7 2nd Generation Brand Pc</span>
+                                    <span class="product-location">Faridpur Buy & Sell Bazar</span>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="product-item text-white">
+                                    <img src="https://i.ibb.co/Jj6bvNF/274731683-130815629461902-9128518087879543345-n.jpg" alt="">
+                                    <span class="price mt-2"><span class="">৳</span>15,000</span>
+                                    <span class="product-titile">Hp Pro Core i7 2nd Generation Brand Pc</span>
+                                    <span class="product-location">Faridpur Buy & Sell Bazar</span>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="product-item text-white">
+                                    <img src="https://i.ibb.co/RGn0CFZ/311253404-1934361570092897-3810412819532237308-n.jpg" alt="">
+                                    <span class="price mt-2"><span class="">৳</span>15,000</span>
+                                    <span class="product-titile">Hp Pro Core i7 2nd Generation Brand Pc</span>
+                                    <span class="product-location">Faridpur Buy & Sell Bazar</span>
+                                </div>
+                            </div>
+
+                            
+                            <div class="col-md-4">
+                                <div class="product-item text-white">
+                                    <img src="https://i.ibb.co/MNp4j6R/311013724-3228888973996913-5282888513203781346-n.jpg" alt="">
+                                    <span class="price mt-2"><span class="">৳</span>15,000</span>
+                                    <span class="product-titile">Hp Pro Core i7 2nd Generation Brand Pc</span>
+                                    <span class="product-location">Faridpur Buy & Sell Bazar</span>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="product-item text-white">
+                                    <img src="https://i.ibb.co/MNp4j6R/311013724-3228888973996913-5282888513203781346-n.jpg" alt="">
+                                    <span class="price mt-2"><span class="">৳</span>15,000</span>
+                                    <span class="product-titile">Hp Pro Core i7 2nd Generation Brand Pc</span>
+                                    <span class="product-location">Faridpur Buy & Sell Bazar</span>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="product-item text-white">
+                                    <img src="https://i.ibb.co/MNp4j6R/311013724-3228888973996913-5282888513203781346-n.jpg" alt="">
+                                    <span class="price mt-2"><span class="">৳</span>15,000</span>
+                                    <span class="product-titile">Hp Pro Core i7 2nd Generation Brand Pc</span>
+                                    <span class="product-location">Faridpur Buy & Sell Bazar</span>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="product-item text-white">
+                                    <img src="https://i.ibb.co/MNp4j6R/311013724-3228888973996913-5282888513203781346-n.jpg" alt="">
+                                    <span class="price mt-2"><span class="">৳</span>15,000</span>
+                                    <span class="product-titile">Hp Pro Core i7 2nd Generation Brand Pc</span>
+                                    <span class="product-location">Faridpur Buy & Sell Bazar</span>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="product-item text-white">
+                                    <img src="https://i.ibb.co/MNp4j6R/311013724-3228888973996913-5282888513203781346-n.jpg" alt="">
+                                    <span class="price mt-2"><span class="">৳</span>15,000</span>
+                                    <span class="product-titile">Hp Pro Core i7 2nd Generation Brand Pc</span>
+                                    <span class="product-location">Faridpur Buy & Sell Bazar</span>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="product-item text-white">
+                                    <img src="https://i.ibb.co/MNp4j6R/311013724-3228888973996913-5282888513203781346-n.jpg" alt="">
+                                    <span class="price mt-2"><span class="">৳</span>15,000</span>
+                                    <span class="product-titile">Hp Pro Core i7 2nd Generation Brand Pc</span>
+                                    <span class="product-location">Faridpur Buy & Sell Bazar</span>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="product-item text-white">
+                                    <img src="https://i.ibb.co/MNp4j6R/311013724-3228888973996913-5282888513203781346-n.jpg" alt="">
+                                    <span class="price mt-2"><span class="">৳</span>15,000</span>
+                                    <span class="product-titile">Hp Pro Core i7 2nd Generation Brand Pc</span>
+                                    <span class="product-location">Faridpur Buy & Sell Bazar</span>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="product-item text-white">
+                                    <img src="https://i.ibb.co/MNp4j6R/311013724-3228888973996913-5282888513203781346-n.jpg" alt="">
+                                    <span class="price mt-2"><span class="">৳</span>15,000</span>
+                                    <span class="product-titile">Hp Pro Core i7 2nd Generation Brand Pc</span>
+                                    <span class="product-location">Faridpur Buy & Sell Bazar</span>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="product-item text-white">
+                                    <img src="https://i.ibb.co/MNp4j6R/311013724-3228888973996913-5282888513203781346-n.jpg" alt="">
+                                    <span class="price mt-2"><span class="">৳</span>15,000</span>
+                                    <span class="product-titile">Hp Pro Core i7 2nd Generation Brand Pc</span>
+                                    <span class="product-location">Faridpur Buy & Sell Bazar</span>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="product-item text-white">
+                                    <img src="https://i.ibb.co/MNp4j6R/311013724-3228888973996913-5282888513203781346-n.jpg" alt="">
+                                    <span class="price mt-2"><span class="">৳</span>15,000</span>
+                                    <span class="product-titile">Hp Pro Core i7 2nd Generation Brand Pc</span>
+                                    <span class="product-location">Faridpur Buy & Sell Bazar</span>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="product-item text-white">
+                                    <img src="https://i.ibb.co/MNp4j6R/311013724-3228888973996913-5282888513203781346-n.jpg" alt="">
+                                    <span class="price mt-2"><span class="">৳</span>15,000</span>
+                                    <span class="product-titile">Hp Pro Core i7 2nd Generation Brand Pc</span>
+                                    <span class="product-location">Faridpur Buy & Sell Bazar</span>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="product-item text-white">
+                                    <img src="https://i.ibb.co/MNp4j6R/311013724-3228888973996913-5282888513203781346-n.jpg" alt="">
+                                    <span class="price mt-2"><span class="">৳</span>15,000</span>
+                                    <span class="product-titile">Hp Pro Core i7 2nd Generation Brand Pc</span>
+                                    <span class="product-location">Faridpur Buy & Sell Bazar</span>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="product-item text-white">
+                                    <img src="https://i.ibb.co/MNp4j6R/311013724-3228888973996913-5282888513203781346-n.jpg" alt="">
+                                    <span class="price mt-2"><span class="">৳</span>15,000</span>
+                                    <span class="product-titile">Hp Pro Core i7 2nd Generation Brand Pc</span>
+                                    <span class="product-location">Faridpur Buy & Sell Bazar</span>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="product-item text-white">
+                                    <img src="https://i.ibb.co/MNp4j6R/311013724-3228888973996913-5282888513203781346-n.jpg" alt="">
+                                    <span class="price mt-2"><span class="">৳</span>15,000</span>
+                                    <span class="product-titile">Hp Pro Core i7 2nd Generation Brand Pc</span>
+                                    <span class="product-location">Faridpur Buy & Sell Bazar</span>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="product-item text-white">
+                                    <img src="https://i.ibb.co/MNp4j6R/311013724-3228888973996913-5282888513203781346-n.jpg" alt="">
+                                    <span class="price mt-2"><span class="">৳</span>15,000</span>
+                                    <span class="product-titile">Hp Pro Core i7 2nd Generation Brand Pc</span>
+                                    <span class="product-location">Faridpur Buy & Sell Bazar</span>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="product-item text-white">
+                                    <img src="https://i.ibb.co/MNp4j6R/311013724-3228888973996913-5282888513203781346-n.jpg" alt="">
+                                    <span class="price mt-2"><span class="">৳</span>15,000</span>
+                                    <span class="product-titile">Hp Pro Core i7 2nd Generation Brand Pc</span>
+                                    <span class="product-location">Faridpur Buy & Sell Bazar</span>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="product-item text-white">
+                                    <img src="https://i.ibb.co/MNp4j6R/311013724-3228888973996913-5282888513203781346-n.jpg" alt="">
+                                    <span class="price mt-2"><span class="">৳</span>15,000</span>
+                                    <span class="product-titile">Hp Pro Core i7 2nd Generation Brand Pc</span>
+                                    <span class="product-location">Faridpur Buy & Sell Bazar</span>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="product-item text-white">
+                                    <img src="https://i.ibb.co/MNp4j6R/311013724-3228888973996913-5282888513203781346-n.jpg" alt="">
+                                    <span class="price mt-2"><span class="">৳</span>15,000</span>
+                                    <span class="product-titile">Hp Pro Core i7 2nd Generation Brand Pc</span>
+                                    <span class="product-location">Faridpur Buy & Sell Bazar</span>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="product-item text-white">
+                                    <img src="https://i.ibb.co/MNp4j6R/311013724-3228888973996913-5282888513203781346-n.jpg" alt="">
+                                    <span class="price mt-2"><span class="">৳</span>15,000</span>
+                                    <span class="product-titile">Hp Pro Core i7 2nd Generation Brand Pc</span>
+                                    <span class="product-location">Faridpur Buy & Sell Bazar</span>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="product-item text-white">
+                                    <img src="https://i.ibb.co/MNp4j6R/311013724-3228888973996913-5282888513203781346-n.jpg" alt="">
+                                    <span class="price mt-2"><span class="">৳</span>15,000</span>
+                                    <span class="product-titile">Hp Pro Core i7 2nd Generation Brand Pc</span>
+                                    <span class="product-location">Faridpur Buy & Sell Bazar</span>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="product-item text-white">
+                                    <img src="https://i.ibb.co/MNp4j6R/311013724-3228888973996913-5282888513203781346-n.jpg" alt="">
+                                    <span class="price mt-2"><span class="">৳</span>15,000</span>
+                                    <span class="product-titile">Hp Pro Core i7 2nd Generation Brand Pc</span>
+                                    <span class="product-location">Faridpur Buy & Sell Bazar</span>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="product-item text-white">
+                                    <img src="https://i.ibb.co/MNp4j6R/311013724-3228888973996913-5282888513203781346-n.jpg" alt="">
+                                    <span class="price mt-2"><span class="">৳</span>15,000</span>
+                                    <span class="product-titile">Hp Pro Core i7 2nd Generation Brand Pc</span>
+                                    <span class="product-location">Faridpur Buy & Sell Bazar</span>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="product-item text-white">
+                                    <img src="https://i.ibb.co/MNp4j6R/311013724-3228888973996913-5282888513203781346-n.jpg" alt="">
+                                    <span class="price mt-2"><span class="">৳</span>15,000</span>
+                                    <span class="product-titile">Hp Pro Core i7 2nd Generation Brand Pc</span>
+                                    <span class="product-location">Faridpur Buy & Sell Bazar</span>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="product-item text-white">
+                                    <img src="https://i.ibb.co/MNp4j6R/311013724-3228888973996913-5282888513203781346-n.jpg" alt="">
+                                    <span class="price mt-2"><span class="">৳</span>15,000</span>
+                                    <span class="product-titile">Hp Pro Core i7 2nd Generation Brand Pc</span>
+                                    <span class="product-location">Faridpur Buy & Sell Bazar</span>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="product-item text-white">
+                                    <img src="https://i.ibb.co/MNp4j6R/311013724-3228888973996913-5282888513203781346-n.jpg" alt="">
+                                    <span class="price mt-2"><span class="">৳</span>15,000</span>
+                                    <span class="product-titile">Hp Pro Core i7 2nd Generation Brand Pc</span>
+                                    <span class="product-location">Faridpur Buy & Sell Bazar</span>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="product-item text-white">
+                                    <img src="https://i.ibb.co/MNp4j6R/311013724-3228888973996913-5282888513203781346-n.jpg" alt="">
+                                    <span class="price mt-2"><span class="">৳</span>15,000</span>
+                                    <span class="product-titile">Hp Pro Core i7 2nd Generation Brand Pc</span>
+                                    <span class="product-location">Faridpur Buy & Sell Bazar</span>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="product-item text-white">
+                                    <img src="https://i.ibb.co/MNp4j6R/311013724-3228888973996913-5282888513203781346-n.jpg" alt="">
+                                    <span class="price mt-2"><span class="">৳</span>15,000</span>
+                                    <span class="product-titile">Hp Pro Core i7 2nd Generation Brand Pc</span>
+                                    <span class="product-location">Faridpur Buy & Sell Bazar</span>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="product-item text-white">
+                                    <img src="https://i.ibb.co/MNp4j6R/311013724-3228888973996913-5282888513203781346-n.jpg" alt="">
+                                    <span class="price mt-2"><span class="">৳</span>15,000</span>
+                                    <span class="product-titile">Hp Pro Core i7 2nd Generation Brand Pc</span>
+                                    <span class="product-location">Faridpur Buy & Sell Bazar</span>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="product-item text-white">
+                                    <img src="https://i.ibb.co/MNp4j6R/311013724-3228888973996913-5282888513203781346-n.jpg" alt="">
+                                    <span class="price mt-2"><span class="">৳</span>15,000</span>
+                                    <span class="product-titile">Hp Pro Core i7 2nd Generation Brand Pc</span>
+                                    <span class="product-location">Faridpur Buy & Sell Bazar</span>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="product-item text-white">
+                                    <img src="https://i.ibb.co/MNp4j6R/311013724-3228888973996913-5282888513203781346-n.jpg" alt="">
+                                    <span class="price mt-2"><span class="">৳</span>15,000</span>
+                                    <span class="product-titile">Hp Pro Core i7 2nd Generation Brand Pc</span>
+                                    <span class="product-location">Faridpur Buy & Sell Bazar</span>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="product-item text-white">
+                                    <img src="https://i.ibb.co/MNp4j6R/311013724-3228888973996913-5282888513203781346-n.jpg" alt="">
+                                    <span class="price mt-2"><span class="">৳</span>15,000</span>
+                                    <span class="product-titile">Hp Pro Core i7 2nd Generation Brand Pc</span>
+                                    <span class="product-location">Faridpur Buy & Sell Bazar</span>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="product-item text-white">
+                                    <img src="https://i.ibb.co/MNp4j6R/311013724-3228888973996913-5282888513203781346-n.jpg" alt="">
+                                    <span class="price mt-2"><span class="">৳</span>15,000</span>
+                                    <span class="product-titile">Hp Pro Core i7 2nd Generation Brand Pc</span>
+                                    <span class="product-location">Faridpur Buy & Sell Bazar</span>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="product-item text-white">
+                                    <img src="https://i.ibb.co/MNp4j6R/311013724-3228888973996913-5282888513203781346-n.jpg" alt="">
+                                    <span class="price mt-2"><span class="">৳</span>15,000</span>
+                                    <span class="product-titile">Hp Pro Core i7 2nd Generation Brand Pc</span>
+                                    <span class="product-location">Faridpur Buy & Sell Bazar</span>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="product-item text-white">
+                                    <img src="https://i.ibb.co/MNp4j6R/311013724-3228888973996913-5282888513203781346-n.jpg" alt="">
+                                    <span class="price mt-2"><span class="">৳</span>15,000</span>
+                                    <span class="product-titile">Hp Pro Core i7 2nd Generation Brand Pc</span>
+                                    <span class="product-location">Faridpur Buy & Sell Bazar</span>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="product-item text-white">
+                                    <img src="https://i.ibb.co/MNp4j6R/311013724-3228888973996913-5282888513203781346-n.jpg" alt="">
+                                    <span class="price mt-2"><span class="">৳</span>15,000</span>
+                                    <span class="product-titile">Hp Pro Core i7 2nd Generation Brand Pc</span>
+                                    <span class="product-location">Faridpur Buy & Sell Bazar</span>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="product-item text-white">
+                                    <img src="https://i.ibb.co/MNp4j6R/311013724-3228888973996913-5282888513203781346-n.jpg" alt="">
+                                    <span class="price mt-2"><span class="">৳</span>15,000</span>
+                                    <span class="product-titile">Hp Pro Core i7 2nd Generation Brand Pc</span>
+                                    <span class="product-location">Faridpur Buy & Sell Bazar</span>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="product-item text-white">
+                                    <img src="https://i.ibb.co/MNp4j6R/311013724-3228888973996913-5282888513203781346-n.jpg" alt="">
+                                    <span class="price mt-2"><span class="">৳</span>15,000</span>
+                                    <span class="product-titile">Hp Pro Core i7 2nd Generation Brand Pc</span>
+                                    <span class="product-location">Faridpur Buy & Sell Bazar</span>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="product-item text-white">
+                                    <img src="https://i.ibb.co/MNp4j6R/311013724-3228888973996913-5282888513203781346-n.jpg" alt="">
+                                    <span class="price mt-2"><span class="">৳</span>15,000</span>
+                                    <span class="product-titile">Hp Pro Core i7 2nd Generation Brand Pc</span>
+                                    <span class="product-location">Faridpur Buy & Sell Bazar</span>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="product-item text-white">
+                                    <img src="https://i.ibb.co/MNp4j6R/311013724-3228888973996913-5282888513203781346-n.jpg" alt="">
+                                    <span class="price mt-2"><span class="">৳</span>15,000</span>
+                                    <span class="product-titile">Hp Pro Core i7 2nd Generation Brand Pc</span>
+                                    <span class="product-location">Faridpur Buy & Sell Bazar</span>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="product-item text-white">
+                                    <img src="https://i.ibb.co/MNp4j6R/311013724-3228888973996913-5282888513203781346-n.jpg" alt="">
+                                    <span class="price mt-2"><span class="">৳</span>15,000</span>
+                                    <span class="product-titile">Hp Pro Core i7 2nd Generation Brand Pc</span>
+                                    <span class="product-location">Faridpur Buy & Sell Bazar</span>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="product-item text-white">
+                                    <img src="https://i.ibb.co/MNp4j6R/311013724-3228888973996913-5282888513203781346-n.jpg" alt="">
+                                    <span class="price mt-2"><span class="">৳</span>15,000</span>
+                                    <span class="product-titile">Hp Pro Core i7 2nd Generation Brand Pc</span>
+                                    <span class="product-location">Faridpur Buy & Sell Bazar</span>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="product-item text-white">
+                                    <img src="https://i.ibb.co/MNp4j6R/311013724-3228888973996913-5282888513203781346-n.jpg" alt="">
+                                    <span class="price mt-2"><span class="">৳</span>15,000</span>
+                                    <span class="product-titile">Hp Pro Core i7 2nd Generation Brand Pc</span>
+                                    <span class="product-location">Faridpur Buy & Sell Bazar</span>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="product-item text-white">
+                                    <img src="https://i.ibb.co/MNp4j6R/311013724-3228888973996913-5282888513203781346-n.jpg" alt="">
+                                    <span class="price mt-2"><span class="">৳</span>15,000</span>
+                                    <span class="product-titile">Hp Pro Core i7 2nd Generation Brand Pc</span>
+                                    <span class="product-location">Faridpur Buy & Sell Bazar</span>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="product-item text-white">
+                                    <img src="https://i.ibb.co/MNp4j6R/311013724-3228888973996913-5282888513203781346-n.jpg" alt="">
+                                    <span class="price mt-2"><span class="">৳</span>15,000</span>
+                                    <span class="product-titile">Hp Pro Core i7 2nd Generation Brand Pc</span>
+                                    <span class="product-location">Faridpur Buy & Sell Bazar</span>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="product-item text-white">
+                                    <img src="https://i.ibb.co/MNp4j6R/311013724-3228888973996913-5282888513203781346-n.jpg" alt="">
+                                    <span class="price mt-2"><span class="">৳</span>15,000</span>
+                                    <span class="product-titile">Hp Pro Core i7 2nd Generation Brand Pc</span>
+                                    <span class="product-location">Faridpur Buy & Sell Bazar</span>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="product-item text-white">
+                                    <img src="https://i.ibb.co/MNp4j6R/311013724-3228888973996913-5282888513203781346-n.jpg" alt="">
+                                    <span class="price mt-2"><span class="">৳</span>15,000</span>
+                                    <span class="product-titile">Hp Pro Core i7 2nd Generation Brand Pc</span>
+                                    <span class="product-location">Faridpur Buy & Sell Bazar</span>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="product-item text-white">
+                                    <img src="https://i.ibb.co/MNp4j6R/311013724-3228888973996913-5282888513203781346-n.jpg" alt="">
+                                    <span class="price mt-2"><span class="">৳</span>15,000</span>
+                                    <span class="product-titile">Hp Pro Core i7 2nd Generation Brand Pc</span>
+                                    <span class="product-location">Faridpur Buy & Sell Bazar</span>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="product-item text-white">
+                                    <img src="https://i.ibb.co/MNp4j6R/311013724-3228888973996913-5282888513203781346-n.jpg" alt="">
+                                    <span class="price mt-2"><span class="">৳</span>15,000</span>
+                                    <span class="product-titile">Hp Pro Core i7 2nd Generation Brand Pc</span>
+                                    <span class="product-location">Faridpur Buy & Sell Bazar</span>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="product-item text-white">
+                                    <img src="https://i.ibb.co/MNp4j6R/311013724-3228888973996913-5282888513203781346-n.jpg" alt="">
+                                    <span class="price mt-2"><span class="">৳</span>15,000</span>
+                                    <span class="product-titile">Hp Pro Core i7 2nd Generation Brand Pc</span>
+                                    <span class="product-location">Faridpur Buy & Sell Bazar</span>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="product-item text-white">
+                                    <img src="https://i.ibb.co/MNp4j6R/311013724-3228888973996913-5282888513203781346-n.jpg" alt="">
+                                    <span class="price mt-2"><span class="">৳</span>15,000</span>
+                                    <span class="product-titile">Hp Pro Core i7 2nd Generation Brand Pc</span>
+                                    <span class="product-location">Faridpur Buy & Sell Bazar</span>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="product-item text-white">
+                                    <img src="https://i.ibb.co/MNp4j6R/311013724-3228888973996913-5282888513203781346-n.jpg" alt="">
+                                    <span class="price mt-2"><span class="">৳</span>15,000</span>
+                                    <span class="product-titile">Hp Pro Core i7 2nd Generation Brand Pc</span>
+                                    <span class="product-location">Faridpur Buy & Sell Bazar</span>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="product-item text-white">
+                                    <img src="https://i.ibb.co/MNp4j6R/311013724-3228888973996913-5282888513203781346-n.jpg" alt="">
+                                    <span class="price mt-2"><span class="">৳</span>15,000</span>
+                                    <span class="product-titile">Hp Pro Core i7 2nd Generation Brand Pc</span>
+                                    <span class="product-location">Faridpur Buy & Sell Bazar</span>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="product-item text-white">
+                                    <img src="https://i.ibb.co/MNp4j6R/311013724-3228888973996913-5282888513203781346-n.jpg" alt="">
+                                    <span class="price mt-2"><span class="">৳</span>15,000</span>
+                                    <span class="product-titile">Hp Pro Core i7 2nd Generation Brand Pc</span>
+                                    <span class="product-location">Faridpur Buy & Sell Bazar</span>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="product-item text-white">
+                                    <img src="https://i.ibb.co/MNp4j6R/311013724-3228888973996913-5282888513203781346-n.jpg" alt="">
+                                    <span class="price mt-2"><span class="">৳</span>15,000</span>
+                                    <span class="product-titile">Hp Pro Core i7 2nd Generation Brand Pc</span>
+                                    <span class="product-location">Faridpur Buy & Sell Bazar</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
